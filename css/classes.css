@@ -1,0 +1,40 @@
+.main-bg {
+    background-image: url(../img/main-bg.svg);
+    /*SUBIR UMA PASTA 9(../nome da pasta onde esta o arquivo)*/
+    background-size: cover;
+    background-position: center center;
+    color: var(--white-color);
+}
+
+.white-bg {
+    background: var(--white-color);
+
+    color: var(--primary-color);
+
+}
+
+.main-content {
+    max-width: 120rem;
+    /*1200 px*/
+    margin: 0 auto;
+    padding: 10rem, var(--gap);
+    /*8 rem 80pix pedding e a distencia de uma sessão da outra*/
+    /*gap e o espaçamento de um contener do outro */
+}
+
+.section {
+    min-height: 100vh;
+}
+
+.menu-spacing {
+    /* criar espaçamento h2 com menu*/
+    height: 65px;
+
+}
+
+
+body .full-width {
+    width: 100%;
+    flex: 1 1 100%;
+
+}
